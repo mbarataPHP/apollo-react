@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "content": "message un",
+    "date": {"construct":"1557779886534"}
+  },
+  {
+    "id": "2",
+    "content": "message deux",
+    "date": {"construct":"1557779900973"}
+  }
+]

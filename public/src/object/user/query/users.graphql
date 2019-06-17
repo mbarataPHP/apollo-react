@@ -1,0 +1,10 @@
+{
+    users{
+        id,
+        token,
+        username
+        lastname
+        firstname,
+        lengthMessages
+    }
+}

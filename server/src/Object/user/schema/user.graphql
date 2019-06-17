@@ -1,0 +1,21 @@
+input UserInput {
+    username: String!
+    lastname: String
+    firstname: String
+}
+
+type User{
+    id: Int!
+    token: String!
+    username: String!
+    messages: [Message!]!
+    lastname: String
+    firstname: String
+
+    nameComplet:String
+    lengthMessages:Int
+}
+
+
+
+

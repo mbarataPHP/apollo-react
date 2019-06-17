@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "build": "webpack --config webpack.development.js && node dist/server.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.5.0",
+    "graphql": "^14.3.0"
+  },
+  "devDependencies": {
+    "@types/webpack-env": "^1.13.9",
+    "clean-webpack-plugin": "^2.0.2",
+    "graphql-tag": "^2.10.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-merge": "^4.2.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

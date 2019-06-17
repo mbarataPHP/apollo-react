@@ -1,0 +1,10 @@
+#import "./mutation.graphql"
+#import "./Object/user/schema/user.graphql"
+#import "./Object/message/schema/message.graphql"
+#import "./Object/date/schema/date.graphql"
+
+type Query {
+    users: [User!]!
+    length: Int!
+    messages(idUser: Int): [Message!]
+}

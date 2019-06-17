@@ -1,0 +1,9 @@
+query User($idUser: Int) {
+    messages(idUser: $idUser){
+        id
+        content
+        date{
+            dateFr
+        }
+    }
+}

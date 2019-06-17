@@ -1,0 +1,16 @@
+input MessageInput {
+    content: String!
+}
+input GetMessageInput {
+    idUser: Int!
+}
+
+type Message {
+    id: String
+    content: String,
+    date: DateObject
+    user:User
+}
+
+
+
